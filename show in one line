@@ -5,3 +5,13 @@ css class {
    -webkit-line-clamp: 1; /* number of lines to show */  
   -webkit-box-orient: vertical;
 }
+#  افزودن میله کنار متن به صورت بی فور 
+selector:before{
+    content:"";
+    width: 6px;
+    height: 60%;
+    top: 20%;
+    border-radius:0px 25px 25px 0px;
+    position: absolute;
+    background-color:#0ac34e;
+}
