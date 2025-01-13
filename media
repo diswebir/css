@@ -1,4 +1,5 @@
-@media screen and only (max-width: 768px) {
+# for mobile 
+@media screen and (max-width: 768px) {
     .my-class.responsive {
         font-size: calc(100% - 3px); /* برای موبایل یا صفحه‌های کوچک‌تر */
     }
