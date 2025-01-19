@@ -1,0 +1,9 @@
+# made a bottun like copon 
+.css {
+  -webkit-mask-image: radial-gradient(circle at 68% 6px, transparent 6px, red 6.5px), linear-gradient(transparent 25%, red 0, red 75%, transparent 0);
+    -webkit-mask-size: 100%, 2px 8px;
+    -webkit-mask-repeat: repeat, repeat-y;
+    -webkit-mask-position: 0 -6px, 68%;
+    -webkit-mask-composite: source-out;
+    mask-composite: subtract;
+}
