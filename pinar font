@@ -1,0 +1,4 @@
+style attribute {
+    font-variation-settings: "wght" 300, "DSTY" 1, "KSHD" 100;
+    font-feature-settings: "kern", "liga", "calt", "rvrn";
+}
